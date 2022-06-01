@@ -1,9 +1,9 @@
 /*
  * GROUP 65 *
  Berke Sina Ahlatc? 2468502
- At?nç Utku Alparslan 2380061
+ At?nÃ§ Utku Alparslan 2380061
  Murat Akkoyun 2380020
- Mustafa Mert Köse 2381705
+ Mustafa Mert KÃ¶se 2381705
  */
 #include <xc.h>
 #include <stdint.h>
@@ -413,8 +413,8 @@ void main(void) {
 			LATF = 0x00;
 			flag = 1;
 		}
-		if (PORTBbits.RC0 == 1) {
-			while (PORTBbits.RC0 == 1) {}
+		if (PORTCbits.RC0 == 1) {
+			while (PORTCbits.RC0 == 1) {}
 			init_LATs();
 			T0CON |= 0x80;
             tmr1_val = TMR1L ;
